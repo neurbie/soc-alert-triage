@@ -65,7 +65,7 @@ time goes to investigation instead of sorting.
 ## Quick start
 
 ```bash
-git clone <this repo> && cd soc-alert-triage
+git clone https://github.com/neurbie/soc-alert-triage.git && cd soc-alert-triage
 
 # Run straight from the source tree (no install needed)
 python -m alerttriage samples/batch_01_overnight_perimeter.json -o report.md
