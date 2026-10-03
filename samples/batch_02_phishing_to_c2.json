@@ -1,0 +1,411 @@
+{
+  "batch_id": "SIEM-EXPORT-2026-09-29-AM",
+  "exported_at": "2026-09-29T11:15:00Z",
+  "alerts": [
+    {
+      "alert_id": "SIEM-7730-00001",
+      "timestamp": "2026-09-29T09:02:36Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "j.alvarez",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to j.alvarez@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00002",
+      "timestamp": "2026-09-29T09:03:41Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "k.nguyen",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to k.nguyen@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00003",
+      "timestamp": "2026-09-29T09:04:14Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "r.patel",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to r.patel@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00004",
+      "timestamp": "2026-09-29T09:04:46Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "s.brooks",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to s.brooks@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00005",
+      "timestamp": "2026-09-29T09:05:14Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "a.kowalski",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to a.kowalski@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00006",
+      "timestamp": "2026-09-29T09:06:04Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "m.chen",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to m.chen@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00007",
+      "timestamp": "2026-09-29T09:06:49Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "d.oyelaran",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to d.oyelaran@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00008",
+      "timestamp": "2026-09-29T09:07:48Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "l.fischer",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to l.fischer@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00009",
+      "timestamp": "2026-09-29T09:08:35Z",
+      "source_ip": "192.0.2.66",
+      "alert_type": "phishing_email",
+      "severity": "medium",
+      "user": "t.haddad",
+      "sensor": "proofpoint",
+      "description": "Suspicious email to t.haddad@corp.example: 'Q3 Invoice Overdue - Action Required' with macro-enabled attachment Invoice_8841.xlsm"
+    },
+    {
+      "alert_id": "SIEM-7730-00010",
+      "timestamp": "2026-09-29T09:31:14Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "malware_detected",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "user": "j.alvarez",
+      "sensor": "crowdstrike",
+      "description": "Malicious macro: EXCEL.EXE spawned powershell.exe -enc ... (Invoice_8841.xlsm)"
+    },
+    {
+      "alert_id": "SIEM-7730-00011",
+      "timestamp": "2026-09-29T09:32:02Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "malware_detected",
+      "severity": "critical",
+      "hostname": "fin-ws-07",
+      "user": "j.alvarez",
+      "sensor": "crowdstrike",
+      "description": "Cobalt Strike beacon DLL loaded into rundll32.exe (C:\\Users\\Public\\upd.dll) - NOT quarantined"
+    },
+    {
+      "alert_id": "SIEM-7730-00012",
+      "timestamp": "2026-09-29T09:35:02Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00013",
+      "timestamp": "2026-09-29T09:39:53Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00014",
+      "timestamp": "2026-09-29T09:44:50Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00015",
+      "timestamp": "2026-09-29T09:49:52Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00038",
+      "timestamp": "2026-09-29T09:50:00Z",
+      "source_ip": "10.0.9.4",
+      "alert_type": "policy_violation",
+      "severity": "info",
+      "hostname": "hr-lt-03",
+      "user": "s.brooks",
+      "sensor": "zscaler",
+      "description": "Access to uncategorized file-sharing site blocked"
+    },
+    {
+      "alert_id": "SIEM-7730-00016",
+      "timestamp": "2026-09-29T09:55:07Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00017",
+      "timestamp": "2026-09-29T10:00:11Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00037",
+      "timestamp": "2026-09-29T10:03:55Z",
+      "source_ip": "203.0.113.190",
+      "alert_type": "impossible_travel",
+      "severity": "high",
+      "user": "m.chen",
+      "sensor": "entra-id",
+      "description": "Sign-in for m.chen from Lagos, NG 34 min after sign-in from Chicago, US (8,700 km)"
+    },
+    {
+      "alert_id": "SIEM-7730-00018",
+      "timestamp": "2026-09-29T10:04:55Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00019",
+      "timestamp": "2026-09-29T10:09:57Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00036",
+      "timestamp": "2026-09-29T10:12:09Z",
+      "source_ip": "10.0.5.41",
+      "alert_type": "malware_detected",
+      "severity": "low",
+      "hostname": "fin-ws-12",
+      "user": "k.nguyen",
+      "sensor": "crowdstrike",
+      "description": "PUP/Adware.BrowserAssist quarantined automatically"
+    },
+    {
+      "alert_id": "SIEM-7730-00020",
+      "timestamp": "2026-09-29T10:15:04Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00021",
+      "timestamp": "2026-09-29T10:19:51Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00022",
+      "timestamp": "2026-09-29T10:25:10Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00023",
+      "timestamp": "2026-09-29T10:30:09Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00024",
+      "timestamp": "2026-09-29T10:35:15Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00025",
+      "timestamp": "2026-09-29T10:40:04Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00031",
+      "timestamp": "2026-09-29T10:45:00Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "dns_tunneling",
+      "severity": "medium",
+      "hostname": "fin-ws-07",
+      "sensor": "zeek",
+      "description": "High-entropy DNS TXT queries: 4ba07346513866e216c8a4c296eb608d13b90542deb93aee.cdn-sync.example (777 queries/5m)"
+    },
+    {
+      "alert_id": "SIEM-7730-00026",
+      "timestamp": "2026-09-29T10:45:14Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00032",
+      "timestamp": "2026-09-29T10:47:00Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "dns_tunneling",
+      "severity": "medium",
+      "hostname": "fin-ws-07",
+      "sensor": "zeek",
+      "description": "High-entropy DNS TXT queries: 98af0f11b88634a75dfca30f0dcf61b7174890ccce526aa1.cdn-sync.example (360 queries/5m)"
+    },
+    {
+      "alert_id": "SIEM-7730-00033",
+      "timestamp": "2026-09-29T10:49:00Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "dns_tunneling",
+      "severity": "medium",
+      "hostname": "fin-ws-07",
+      "sensor": "zeek",
+      "description": "High-entropy DNS TXT queries: 623ea7395b4abcb57769fa9f0c70cf71c1f7a73d43b954a5.cdn-sync.example (898 queries/5m)"
+    },
+    {
+      "alert_id": "SIEM-7730-00027",
+      "timestamp": "2026-09-29T10:49:58Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00034",
+      "timestamp": "2026-09-29T10:53:00Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "dns_tunneling",
+      "severity": "medium",
+      "hostname": "fin-ws-07",
+      "sensor": "zeek",
+      "description": "High-entropy DNS TXT queries: 0dab66b6ab78c480c855beed17fe02694c50f92c292ed0ef.cdn-sync.example (455 queries/5m)"
+    },
+    {
+      "alert_id": "SIEM-7730-00028",
+      "timestamp": "2026-09-29T10:55:14Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00029",
+      "timestamp": "2026-09-29T10:59:50Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00030",
+      "timestamp": "2026-09-29T11:05:07Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "C2 Beacon",
+      "severity": "high",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "sensor": "zeek",
+      "description": "Periodic HTTPS beaconing to 198.51.100.77 (interval ~300s, jitter 5%, JA3 matches Cobalt Strike)"
+    },
+    {
+      "alert_id": "SIEM-7730-00035",
+      "timestamp": "2026-09-29T11:07:41Z",
+      "source_ip": "10.0.5.23",
+      "alert_type": "data_exfiltration",
+      "severity": "critical",
+      "hostname": "fin-ws-07",
+      "dest_ip": "198.51.100.77",
+      "user": "j.alvarez",
+      "sensor": "zeek",
+      "description": "1.8 GB outbound to 198.51.100.77 over 6 min; files from \\\\fs01\\finance\\payroll staged in %TEMP%\\a.7z"
+    }
+  ]
+}
